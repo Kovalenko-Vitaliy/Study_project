@@ -10,4 +10,6 @@ if __name__ == "__main__":
     assert is_even(-2) is True
     assert is_even(-3) is False
 
+    assert is_even(1234567) is False
+
 #Работает :)
