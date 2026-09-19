@@ -13,4 +13,6 @@ if __name__ == "__main__":
     assert number_sign(-8) == "negative"
     assert number_sign(0) == "zero"
 
+    assert number_sign(1) == "positive"
+
 #Работает :)

@@ -10,4 +10,6 @@ if __name__ == "__main__":
     assert larger_number(4, 4) == 4
     assert larger_number(-5, -2) == -2
 
+    assert larger_number(-7, -7) == -7
+
 #Работает :)
