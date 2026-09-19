@@ -11,4 +11,9 @@ if __name__ == "__main__":
 
     assert first_or_none([0]) ==0
 
+    numbers = [0, 5]
+    before = numbers.copy()
+    assert first_or_none(numbers) == 0
+    assert numbers == before
+
 #Работает :)
