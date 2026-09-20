@@ -12,4 +12,8 @@ if __name__ == "__main__":
     assert only_positive(original) == [3, 1, 3]
     assert original == copy_before
 
+    original = [2, 4]
+    result = only_positive(original)
+    assert result is not original
+
 # Работает :)
