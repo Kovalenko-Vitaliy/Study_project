@@ -1,4 +1,4 @@
-def largest_or_none(numbers:list) -> int:
+def largest_or_none(numbers:list) -> int|None:
     if not numbers:
         return None
     return max(numbers)
