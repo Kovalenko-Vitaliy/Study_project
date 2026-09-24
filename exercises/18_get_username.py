@@ -1,3 +1,5 @@
+from typing import Any
+
 def get_username(user:dict[str, Any]) -> str:
     return user.get("name","Гость")
 
