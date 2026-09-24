@@ -1,4 +1,4 @@
-def get_username(user:dict[str, str]) -> str:
+def get_username(user:dict[str, Any]) -> str:
     return user.get("name","Гость")
 
 if __name__ == "__main__":
