@@ -12,8 +12,8 @@ if __name__ == "__main__":
     assert is_leap_year(2400) is True
 
     assert is_leap_year(1999) is False
-    assert is_leap_year(2001) is True
+    assert is_leap_year(2001) is False
     assert is_leap_year(2002) is False
-    assert is_leap_year(2003) is True
+    assert is_leap_year(2003) is False
 
 #Работает :)
