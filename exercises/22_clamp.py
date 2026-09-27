@@ -15,4 +15,8 @@ if __name__ == "__main__":
     assert clamp(-4, -8, -2) == -4
     assert clamp(100, 7, 7) == 7
 
+    assert clamp(5, 1, 4) == 4
+    assert clamp(-5, -5, 4) == -5
+    assert clamp(3, -5, 4) == 3
+
 #Работает :)
