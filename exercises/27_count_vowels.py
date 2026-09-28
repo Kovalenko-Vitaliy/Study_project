@@ -1,8 +1,8 @@
 def count_vowels(text:str)->int:
-    vowels = {'a', 'e', 'i', 'o', 'u'}
+    vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
 
     count = 0
-    for char in text.lower():
+    for char in text:
         if char in vowels:
             count += 1
 
@@ -17,5 +17,7 @@ if __name__ == "__main__":
     assert count_vowels("") == 0
 
     assert count_vowels("aAeEiIoOuU ПРИвет 123321") == 10
+    
+    assert count_vowels("İ") == 0
 
 #Работает :)
