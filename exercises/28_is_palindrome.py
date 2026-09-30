@@ -1,6 +1,6 @@
 def is_palindrome(text:str) -> bool:
-    copy_before = text[::-1].lower()
-    return text.lower() == copy_before
+    normalized = text.lower()
+    return normalized == normalized[::-1]
 
 if __name__ == "__main__":
     assert is_palindrome("Abba") is True
@@ -14,5 +14,8 @@ if __name__ == "__main__":
     assert is_palindrome("Flash") is False
     assert is_palindrome("dog") is False
     assert is_palindrome("cat123321tac") is True
+
+    assert is_palindrome("ΣοΣ") is False
+    assert is_palindrome("İaİ") is False
 
 #Работает :)
