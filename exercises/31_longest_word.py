@@ -1,4 +1,4 @@
-def longest_word(text:str) -> str:
+def longest_word(text:str) -> str | None:
     words = text.split()
 
     if not words:
