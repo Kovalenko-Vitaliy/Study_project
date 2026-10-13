@@ -1,5 +1,5 @@
 def group_words_by_length(words: list[str]) -> dict[int, list[str]]:
-    groups ={}
+    groups: dict[int, list[str]] = {}
 
     for word in words:
         length = len(word)
