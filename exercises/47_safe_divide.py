@@ -1,4 +1,4 @@
-def safe_divide(a:int, b:int)->int|None:
+def safe_divide(a:int, b:int)->float|None:
     try:
         return a / b
     except ZeroDivisionError:
